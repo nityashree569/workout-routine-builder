@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workout Routine Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Workout Routine Builder 🏋️‍♂️</h1>
+    
+    <label for="muscle-group">Choose Muscle Group:</label>
+    <select id="muscle-group">
+      <option value="">-- Select --</option>
+      <option value="chest">Chest</option>
+      <option value="legs">Legs</option>
+      <option value="back">Back</option>
+      <option value="shoulder">Shoulder</option>
+      <option value="arms">Arms</option>
+    </select>
+
+    <div id="workout-options" class="hidden">
+      <label for="workout">Choose Workout:</label>
+      <select id="workout"></select>
+
+      <label for="sets">Sets:</label>
+      <input type="number" id="sets" min="1" max="10" value="3">
+
+      <label for="reps">Reps:</label>
+      <input type="number" id="reps" min="1" max="50" value="12">
+
+      <label for="day">Day:</label>
+      <input type="text" id="day" placeholder="e.g., Monday">
+
+      <button id="add-btn">Add to Routine</button>
+    </div>
+
+    <h2>Your Routine</h2>
+    <ul id="routine-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
