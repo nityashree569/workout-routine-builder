@@ -19,7 +19,7 @@ A simple and user-friendly frontend application to create, customize, and save w
 
 ## 🚀 Live Demo
 
-🔗 [Click here to view the project](https://github.com/nityashree569/workout.html)
+🔗 [Click here to view the project](https://nityashree569.github.io/workout-routine-builder)
 
 
 
